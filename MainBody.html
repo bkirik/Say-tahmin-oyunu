@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!--FONT FAMILY-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!--FONT FAMILY-->
+</head>
+<body>
+    <div class="header"><span class = "headerText">SAYI TAHMİN ET [0-10]</span></div>
+    <div class="mainBox">
+        <label class = "inputLabel"for="inputBox">SAYI GİRİNİZ</label>
+        <input min = "0" max = "10" name = "inputBox" class = "inputBox"type="number">
+        <div id = "checker">
+            <span id = "sonucText">SONUÇ</span>
+            <span id="sonucText2">TAHMİN EDİN! [0-10]</span>
+        </div>
+        <button onclick = "takeInput()" class = "applyButton">TAHMİN ET</button>
+    </div>
+    <script src="process.js"></script>
+</body>
+</html>

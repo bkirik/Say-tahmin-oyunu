@@ -1,0 +1,95 @@
+*{
+    color: rgb(208, 174, 174);
+    font-size:1.2vw;
+    font-family:'Montserrat', sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+html,body{
+    height: 100%;
+    background-color:rgb(191, 95, 60);
+    overflow: hidden;
+    margin: 0;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(165, 42, 42, 0.593);
+    box-sizing: border-box;
+    padding: 5px;
+    border-bottom: 2px solid rgb(208, 174, 174);
+}
+.headerText{
+    align-self: center;
+    font-weight: bolder;
+    margin-left: 1vw;
+    font-size: 1.5rem;
+}
+.mainBox{
+    border: 2px solid rgb(208, 174, 174);
+    display: flex;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    width: 33%;
+    justify-content: center;
+    left: 33%;
+    height: 100%;
+    border-top: 0;
+    border-bottom: 0;
+}
+.inputBox{
+    height: 50px;
+    width: 66%;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 0;
+    position: absolute;
+    top: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.inputBox:focus{
+    outline: 0;
+    border:2px solid rgb(208, 174, 174);
+}
+.inputLabel{
+    position: absolute;
+    top: 150px;
+    font-weight: normal;
+}
+#checker{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:400px;
+    border-top: 1px solid rgb(208, 174, 174);
+    box-sizing: border-box;
+    height: 600px;
+    width:100%;
+
+}
+#sonucText{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.applyButton{
+    height: 30px;
+    width: 20%;
+    position: absolute;
+    right: 0;
+    top:370px;
+    border: 0;
+    border-left: 2px solid rgb(208, 174, 174);
+    border-top: 1px solid rgb(208, 174, 174);
+    outline: 0;
+    background-color:rgba(165, 42, 42, 0.593);
+    font-size: 0.6rem;
+}
+#sonucText2{
+    position: absolute;
+    top: 45%;
+}
